@@ -1,3 +1,4 @@
+// Import des modules nécessaires
 require('dotenv').config(); // Charger les variables d'environnement depuis .env
 const { Client, GatewayIntentBits, Partials, ActivityType } = require("discord.js");
 const fs = require("fs");
